@@ -103,7 +103,7 @@ input[type="checkbox"].toggle + label::before {
 
 input[type="checkbox"].toggle + label::after {
   position: absolute;
-  content: url(assets/night_icon.svg);
+  content: url(assets/day_icon.svg);
   font-size: 1em;
   left: .2em;
   width: 1.8em;
@@ -119,7 +119,7 @@ input[type="checkbox"].toggle:checked + label::before {
 }
 
 input[type="checkbox"].toggle:checked + label::after {
-  content: url(assets/day_icon.svg);
+  content: url(assets/night_icon.svg);
   transform: translateX(100%);
 
 }
